@@ -18,5 +18,6 @@ Custom Dalamud plugin repository for Moegi's FFXIV plugins.
 | Plugin | Description | Source |
 | --- | --- | --- |
 | Chat Sharp | The game's chat window, with unlimited tabs. | [Requine-Moegi/ChatSharp](https://github.com/Requine-Moegi/ChatSharp) |
+| Tome Tracker | Track your crafting and gathering tome progress in real-time. | [Requine-Moegi/TomeTracker](https://github.com/Requine-Moegi/TomeTracker) |
 
 Moving from ChatTwoVanilla? Install Chat Sharp from this repository, then remove ChatTwoVanilla. Your settings and message history copy over on first load.

@@ -28,5 +28,36 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "LastUpdate": 1794760849
+  },
+  {
+    "Author": "Moegi",
+    "Name": "Tome Tracker",
+    "InternalName": "TomeTracker",
+    "AssemblyVersion": "1.1.0.0",
+    "Description": "Automatically loads and tracks all available tomes from FFXIV game data. Shows unlocked/locked status for each crafting and gathering class using direct game state access. Use /tometracker to open the main window.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/Requine-Moegi/TomeTracker",
+    "Tags": [
+      "tomes",
+      "crafting",
+      "gathering",
+      "progress",
+      "tracking"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/Requine-Moegi/MoegiPlugins/main/icons/TomeTracker.png",
+    "Punchline": "Track your crafting and gathering tome progress in real-time.",
+    "Changelog": "1.1.0\n- Updated to Dalamud API 15 (.NET 10)\n- Fixed ItemAction API changes for Lumina compatibility\n- Author changed to Moegi",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/Requine-Moegi/TomeTracker/releases/download/1.1.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Requine-Moegi/TomeTracker/releases/download/1.1.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Requine-Moegi/TomeTracker/releases/download/1.1.0/latest.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1794762322
   }
 ]
