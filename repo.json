@@ -1,0 +1,32 @@
+[
+  {
+    "Author": "Moegi",
+    "Name": "Chat Sharp",
+    "InternalName": "ChatSharp",
+    "AssemblyVersion": "1.45.0.0",
+    "Description": "Chat Sharp (C#) is the game's own chat window, with unlimited tabs.\nOpen it with /chatsharp. /chat2vanilla still works.\nIssues: https://github.com/Requine-Moegi/ChatSharp/issues\n\nBased on Chat 2 by Anna (ascclemens) and Infi (Infiziert90), licensed under the EUPL-1.2.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/Requine-Moegi/ChatSharp",
+    "Tags": [
+      "Social",
+      "UI",
+      "Chat",
+      "Replacement"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/Requine-Moegi/MoegiPlugins/main/icons/ChatSharp.png",
+    "Punchline": "The game's chat window, with unlimited tabs.",
+    "Changelog": "**1.45.0**\n- Internal name is now ChatSharp. Settings and message history copy over from ChatTwoVanilla on first load\n- IPC is available as ChatSharp.*. The old ChatTwoVanilla.* channels still work\n\n**1.44.2**\n- New plugin icon: a white chat bubble with a # mark\n\n**1.44.1**\n- About lists Moegi as the author\n- Issues open on this repository\n- Ko-fi links for the original authors sit under the credit\n\n**1.44.0**\n- Now called Chat Sharp (C#). Open it with /chatsharp. /chat2vanilla still works.\n- The window always uses the game's chat look.\n- Pop-outs can be locked in place and locked in size.\n- Settings are grouped into General, Appearance, Tabs, Pop-outs, Chat, and Advanced.\n\n**1.43.21**\n- Switching back to a tab stays at the bottom\n\n**1.43.20**\n- Logs and pop-outs open at the bottom\n\n**1.43.19**\n- Pop-out logs stay still at Dalamud scale 1.5\n- \"You obtain\" lines fall back to the vanilla yellow\n- Clone button on each tab in settings\n\n**1.43.18**\n- Pop-out logs stay put when new lines arrive\n- \"You obtain\" lines use the game's loot color\n\n**1.43.17**\n- Tab and channel labels follow the Font size setting\n\n**1.43.16**\n- Wrapped chat lines no longer gain extra space when Dalamud's scale is above 1\n\n**1.43.15**\n- Option to tint the input box only while typing\n\n**1.43.14**\n- Pop-outs remember their position and size\n\n**1.43.13**\n- Font size setting; text no longer scales with Dalamud\n\n**1.43.12**\n- Chat text size now matches the game when Dalamud's scale differs\n\n**1.43.11**\n- Import your tabs from the game's chat settings\n- Optional input box tint by chat channel\n- Per-tab log background color and log transparency setting\n- Toggle for the gold highlight on tabs with new messages\n- Vanilla Style settings now have their own tab, with shorter descriptions\n- Fixed pop-out resizing, saving, and text spilling past the log\n- More reliable game font on all machines\n\n**1.42.0**\n- First release",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/Requine-Moegi/ChatSharp/releases/download/1.45.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Requine-Moegi/ChatSharp/releases/download/1.45.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/Requine-Moegi/ChatSharp/releases/download/1.45.0/latest.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1794760849
+  }
+]
